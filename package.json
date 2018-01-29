@@ -1,0 +1,37 @@
+{
+  "name": "react-final-form-prop-types",
+  "version": "0.0.1",
+  "description": "React Prop Types extracted from react-final-form's Flow types",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nwb": "0.21.x",
+    "prop-types": "15.6.0"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15"
+  },
+  "author": "Alasdair McLeay",
+  "homepage": "https://github.com/penx/react-final-form-prop-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/react-final-form-prop-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/penx/react-final-form-prop-types/issues"
+  },
+  "license": "ISC"
+}
