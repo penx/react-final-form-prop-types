@@ -1,7 +1,7 @@
 // prop types based on https://github.com/final-form/react-final-form/blob/master/src/types.js.flow
 import PropTypes from "prop-types";
 
-const FieldRenderProps = {
+export const FieldRenderProps = {
   input: PropTypes.shape({
     name: PropTypes.string,
     onBlur: PropTypes.func,
